@@ -10,16 +10,13 @@ header {
     text-align: center;
 }
 
-    header image {
-        display: inline-block;
-    }
 
 main {
     box-sizing: border-box;
     margin: 0 1rem;
 }
 
-    main image {
+    main img {
         height: auto;
         margin: 1rem auto;
         display: block;
@@ -45,7 +42,21 @@ p {
 
 ul {
 }
+ 
+
 
 li {
     margin: .5rem 0;
+}
+
+.examples {
+    display: block;
+    margin: 1rem auto;
+    display: block;
+    max-width: 100%;
+    text-align:center;
+}
+
+.examples img{
+    display: inline-block;
 }
